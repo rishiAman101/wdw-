@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Products Inventory</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+<script src="pro.js"></script>
+
+    <header>
+        <h1>Gym Products Inventory</h1>
+        <p>Your one-stop shop for all fitness equipment</p>
+    </header>
+
+    <section class="inventory">
+        <!-- Strength Training Category -->
+        <div class="category">
+            <h2>Strength Training</h2>
+            <div class="product">
+                <h3>Dumbbells</h3>
+                <p>Adjustable dumbbells for strength exercises</p>
+                <p class="price">₹1600 - ₹24000</p>
+            </div>
+            <div class="product">
+                <h3>Barbell</h3>
+                <p>Barbell with weight plates</p>
+                <p class="price">₹4000 - ₹40000</p>
+            </div>
+            <div class="product">
+                <h3>Kettlebell</h3>
+                <p>Kettlebell for full body workouts</p>
+                <p class="price">₹2000 - ₹16000</p>
+            </div>
+        </div>
+
+        <!-- Cardiovascular Equipment Category -->
+        <div class="category">
+            <h2>Cardio Equipment</h2>
+            <div class="product">
+                <h3>Treadmill</h3>
+                <p>Electric treadmill for running or walking</p>
+                <p class="price">₹24000 - ₹160000</p>
+            </div>
+            <div class="product">
+                <h3>Stationary Bike</h3>
+                <p>Exercise bike for cardio workout</p>
+                <p class="price">₹12000 - ₹120000</p>
+            </div>
+            <div class="product">
+                <h3>Elliptical Trainer</h3>
+                <p>Elliptical machine for low-impact cardio</p>
+                <p class="price">₹16000 - ₹200000</p>
+            </div>
+        </div>
+
+        <!-- Flexibility & Recovery Category -->
+        <div class="category">
+            <h2>Flexibility & Recovery</h2>
+            <div class="product">
+                <h3>Yoga Mat</h3>
+                <p>Non-slip yoga mat for floor exercises</p>
+                <p class="price">₹800 - ₹4000</p>
+            </div>
+            <div class="product">
+                <h3>Foam Roller</h3>
+                <p>Foam roller for muscle recovery</p>
+                <p class="price">₹1200 - ₹4000</p>
+            </div>
+        </div>
+
+        <!-- Nutrition Category -->
+        <div class="category">
+            <h2>Nutrition & Supplements</h2>
+            <div class="product">
+                <h3>Protein Powder</h3>
+                <p>Whey protein powder for muscle recovery</p>
+                <p class="price">₹2400 - ₹8000</p>
+            </div>
+            <div class="product">
+                <h3>BCAA Supplements</h3>
+                <p>Branched-chain amino acids for endurance and recovery</p>
+                <p class="price">₹1600 - ₹4000</p>
+            </div>
+        </div>
+    </section>
+    <header>
+        <h1>Choose Your Membership</h1>
+        <p>Explore our flexible membership plans</p>
+    </header>
+
+    <section class="membership-container">
+        <!-- Membership Plan 1 -->
+        <div class="membership-card">
+            <h2>Basic Plan</h2>
+            <p class="price">₹1599/month</p>
+            <ul>
+                <li>Access to Gym Equipment</li>
+                <li>Basic Fitness Classes</li>
+                <li>1 Personal Training Session</li>
+                <li>Access to Locker Room</li>
+            </ul>
+            <button class="join-btn" onclick="joinNow('Basic Plan')">Join Now</button>
+        </div>
+
+        <!-- Membership Plan 2 -->
+        <div class="membership-card">
+            <h2>Premium Plan</h2>
+            <p class="price">₹3199/month</p>
+            <ul>
+                <li>All Basic Plan Features</li>
+                <li>Unlimited Fitness Classes</li>
+                <li>3 Personal Training Sessions</li>
+                <li>Access to Pool & Sauna</li>
+            </ul>
+            <button class="join-btn" onclick="joinNow('Premium Plan')">Join Now</button>
+        </div>
+
+        <!-- Membership Plan 3 -->
+        <div class="membership-card">
+            <h2>Elite Plan</h2>
+            <p class="price">₹4899/month</p>
+            <ul>
+                <li>All Premium Plan Features</li>
+                <li>Unlimited Personal Training Sessions</li>
+                <li>Priority Booking for Classes</li>
+                <li>Free Guest Passes</li>
+            </ul>
+            <button class="join-btn" onclick="joinNow('Elite Plan')">Join Now</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gym Equipment Store | All rights reserved</p>
+    </footer>
+</body>
+</html>

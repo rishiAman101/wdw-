@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <!-- Home button to navigate to home page -->
+            <button class="home-btn" onclick="goHome()">Home</button>
+
+            <h2>Welcome Back!</h2>
+            <p>Login to your Gym account to continue</p>
+            <form>
+                <div class="textbox">
+                    <i class="material-icons">person</i>
+                    <input type="text" placeholder="Username" name="username" required>
+                </div>
+                <div class="textbox">
+                    <i class="material-icons">lock</i>
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p class="forgot-password"><a href="#">Forgot your password?</a></p>
+                <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

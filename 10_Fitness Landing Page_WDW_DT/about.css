@@ -1,0 +1,46 @@
+body{
+    background: #4e004e;
+}
+
+.about-fitness {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.about-fitness h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.about-fitness h2 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.about-fitness p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-fitness ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.about-fitness ul li {
+    margin-bottom: 10px;
+}
+
+.about-fitness ul li strong {
+    color: #4CAF50;
+}

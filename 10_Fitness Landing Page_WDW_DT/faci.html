@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Facilities Button</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f2f2f2;
+    }
+    .facilities-button {
+      background-color: #ff5733;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+    .facilities-button:hover {
+      background-color: #e14e2d;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <button class="facilities-button" onclick="goToHomePage()">View Gym Facilities</button>
+
+  <script>
+    function goToHomePage() {
+      window.location.href = "index.html"; // Replace "home.html" with your actual home page URL
+    }
+  </script>
+</body>
+</html>
